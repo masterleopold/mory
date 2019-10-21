@@ -152,7 +152,7 @@ h1, .h1 {
   line-height: 1.285;
   font-weight: 300;
   margin-bottom: 20px;
-  letter-spacing: -0.036em;
+  letter-spacing: 0.02em;
 }
 h1.big, .h1.big {
   font-size: 58px;
@@ -319,7 +319,7 @@ small .small {
   .h1.huge,
   h1.big,
   .h1.big {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
 
@@ -2125,7 +2125,6 @@ html.mobile .showForMobileInline {
   top: -10px;
 }
 .whiteSlide .side.compact .navigation li {
-  background: #202020;
 }
 .side.compact:not(.square) .navigation li:first-child {
   border-radius: 10px 10px 0 0;
