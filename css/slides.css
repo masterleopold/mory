@@ -6825,9 +6825,9 @@ form input[type="email"].input-13 {
 }
 @media (min-width: 1024px) {
   .ipad-33 {
-    margin: -10% 0px -90%;
+    margin: -20% 0px -40%;
     max-width: none;
-    padding-right: 140px
+    padding-right: 200px
   }
 }
 @media (max-width: 1023px) {
