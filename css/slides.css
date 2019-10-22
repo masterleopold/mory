@@ -203,6 +203,11 @@ h3,
   margin-bottom: 12px;
   font-weight: 400;
 }
+
+.morypink{
+  color:#EC1C77;
+}
+
 h3.large,
 .h3.large {
   font-size: 32px;
@@ -245,7 +250,7 @@ h6,
 p,
 .p,
 blockquote {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.6363636364;
   margin-bottom: 30px;
   font-weight: 300;
@@ -369,7 +374,7 @@ small .small {
   border: none;
   outline: none;
   text-decoration: none;
-  background: #202020;
+  background: #6A6A6A;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
@@ -555,13 +560,13 @@ small .small {
   border-radius: 0px;
 }
 .button.stroke {
-  color: #202020;
+  color: #6A6A6A;
   border: 2px solid;
   background-color: transparent !important;
   padding: 14px 22px 15px;
 }
 .slide.whiteSlide .button.stroke {
-  color: #202020;
+  color: #6A6A6A;
 }
 .button.stroke.round {
   padding-left: 26px;
@@ -832,7 +837,7 @@ p.uppercase, .p.uppercase,
 }
 
 .slide.whiteSlide svg {
-  fill: #202020;
+  fill: #6A6A6A;
 }
 
 .svgContainer,
@@ -876,7 +881,7 @@ p.uppercase, .p.uppercase,
 }
 
 .slide.whiteSlide .dot:after {
-  background: #202020;
+  background: #6A6A6A;
 }
 
 .dot:hover:after {
@@ -916,16 +921,16 @@ p.uppercase, .p.uppercase,
 }
 .tabs li.selected {
   background: #fff;
-  color: #202020;
+  color: #6A6A6A;
 }
 
 .slide.whiteSlide .tabs li {
   border-color: #e5e5e5;
-  color: #202020;
+  color: #6A6A6A;
 }
 .slide.whiteSlide .tabs li.selected {
-  background: #202020;
-  border-color: #202020;
+  background: #6A6A6A;
+  border-color: #6A6A6A;
   color: #fff;
 }
 
@@ -1266,7 +1271,7 @@ p.uppercase, .p.uppercase,
   position: fixed;
   width: 100%;
   height: 100%;
-  background: #202020;
+  background: #6A6A6A;
   color: #fff;
   z-index: 10;
   overflow: hidden;
@@ -1284,7 +1289,7 @@ p.uppercase, .p.uppercase,
   visibility: visible;
 }
 .slide.whiteSlide {
-  color: #202020;
+  color: #6A6A6A;
   background: #fff;
 }
 
@@ -1590,7 +1595,7 @@ html:not(.mobile) .slide.video .background[style] {
 .pad {
   border-radius: 6px;
   padding: 10%;
-  color: #202020;
+  color: #6A6A6A;
   background: #fff;
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -1605,7 +1610,7 @@ html:not(.mobile) .slide.video .background[style] {
 }
 .pad.shadow.stroke:hover {
   background: #fff;
-  color: #202020;
+  color: #6A6A6A;
   transition: 0.15s;
 }
 .pad.shadowHover {
@@ -1737,7 +1742,7 @@ html.mobile .showForMobileInline {
   width: 17px;
   height: 17px;
   line-height: 1.2;
-  background: #202020;
+  background: #6A6A6A;
   opacity: 0.3;
   color: #fff;
   border-radius: 50%;
@@ -1748,7 +1753,7 @@ html.mobile .showForMobileInline {
 }
 .helpBubble .helpMessage {
   background: rgba(255, 255, 255, 0.98);
-  color: #202020;
+  color: #6A6A6A;
   font-size: 16px;
   line-height: 1.625;
   position: absolute;
@@ -1839,7 +1844,7 @@ html.mobile .showForMobileInline {
   opacity: 1;
 }
 .slides.whiteSlide .panel {
-  color: #202020;
+  color: #6A6A6A;
 }
 .scroll .panel.hideOnScroll, .mobile .simplifiedMobile .panel.hideOnScroll {
   position: fixed;
@@ -1949,7 +1954,7 @@ html.mobile .showForMobileInline {
   vertical-align: bottom;
 }
 .slides.whiteSlide .panel svg {
-  fill: #202020;
+  fill: #EC1C77;
 }
 .panel a:not(.button):hover {
   opacity: 0.75;
@@ -2125,6 +2130,7 @@ html.mobile .showForMobileInline {
   top: -10px;
 }
 .whiteSlide .side.compact .navigation li {
+  background: #6A6A6A;
 }
 .side.compact:not(.square) .navigation li:first-child {
   border-radius: 10px 10px 0 0;
@@ -2139,7 +2145,7 @@ html.mobile .showForMobileInline {
   padding: 0;
 }
 .slides.whiteSlide .side svg:not([fill]) {
-  fill: #202020;
+  fill: #6A6A6A;
 }
 
 .navigation {
@@ -2356,11 +2362,11 @@ html.mobile .showForMobileInline {
   margin-top: 2px;
 }
 .slides.whiteSlide .navigation li:after {
-  background: #202020;
+  background: #6A6A6A;
   box-shadow: 0 0 1px #fff;
 }
 .slides.whiteSlide .stroke .navigation li:after {
-  border-color: #202020;
+  border-color: #6A6A6A;
   background: transparent;
 }
 .slides.whiteSlide .stroke .navigation li:hover:after {
@@ -2368,7 +2374,7 @@ html.mobile .showForMobileInline {
 }
 .slides.whiteSlide .stroke .navigation li.selected:after {
   border-color: #303030;
-  background: #202020;
+  background: #6A6A6A;
 }
 .panel .navigation, .panel .navigation ul {
   display: inline;
@@ -2406,7 +2412,7 @@ html.mobile .showForMobileInline {
 .dropdown {
   position: fixed;
   z-index: 300;
-  color: #202020;
+  color: #6A6A6A;
   width: 160px;
   background: #fff;
   box-shadow: 0 6px 11px 0 rgba(0, 0, 0, 0.15), 0 14px 28px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05);
@@ -2550,7 +2556,7 @@ html.mobile .showForMobileInline {
 .dropdown.share li.mail {
   width: 100%;
   height: auto;
-  color: #202020;
+  color: #6A6A6A;
   opacity: 0.6;
   font-size: 15px;
   padding: 20px 0;
@@ -2841,7 +2847,7 @@ html.mobile .showForMobileInline {
   margin: 15px;
 }
 .popup.white .close svg {
-  fill: #202020;
+  fill: #6A6A6A;
 }
 .popup .wrap {
   padding: 18px 58px;
@@ -4704,7 +4710,7 @@ html.mobile .showForMobileInline {
 html {
   font-size: 6px;
   font-weight: 400;
-  color: #202020;
+  color: #6A6A6A;
 }
 @media (max-width: 550px) {
   html {
@@ -5022,10 +5028,10 @@ body {
 /* Colors */
 .white {
   background: #fff !important;
-  color: #202020 !important;
+  color: #6A6A6A !important;
 }
 .white svg {
-  fill: #202020 !important;
+  fill: #6A6A6A !important;
 }
 
 .text-white {
@@ -5044,7 +5050,7 @@ body {
 }
 
 .black {
-  background: #202020 !important;
+  background: #6A6A6A !important;
   color: #fff !important;
 }
 .black svg {
@@ -5052,18 +5058,18 @@ body {
 }
 
 .text-black {
-  color: #202020 !important;
+  color: #6A6A6A !important;
 }
 .text-black.button svg {
-  fill: #202020 !important;
+  fill: #6A6A6A !important;
 }
 
 .stroke.button.black {
-  color: #202020 !important;
-  border-color: #202020 !important;
+  color: #6A6A6A !important;
+  border-color: #6A6A6A !important;
 }
 .stroke.button.black svg {
-  fill: #202020 !important;
+  fill: #6A6A6A !important;
 }
 
 /* Colors by Google Meterial Design (C) */
@@ -5322,10 +5328,10 @@ body {
 
 .yellow {
   background: #FFEB3B !important;
-  color: #202020 !important;
+  color: #6A6A6A !important;
 }
 .yellow svg {
-  fill: #202020 !important;
+  fill: #6A6A6A !important;
 }
 
 .text-yellow {
@@ -6449,7 +6455,7 @@ body {
   width: 14px;
   height: 2px;
   border-radius: 2px;
-  background: #202020;
+  background: #6A6A6A;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   position: absolute;
@@ -6572,7 +6578,7 @@ html:not(.page-loaded) .dialog {
   padding: 13px 5px 16px 15px;
   outline: none;
   margin: 1px 0 0 0;
-  color: #202020;
+  color: #6A6A6A;
   height: 50px;
   box-shadow: none !important;
   -webkit-appearance: none;
@@ -6951,7 +6957,7 @@ p.remind-43 {
 }
 .grid-64 .cell-64:hover {
   background: #fff;
-  color: #202020;
+  color: #6A6A6A;
   opacity: 1;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   border-color: transparent !important;
@@ -6983,7 +6989,7 @@ p.remind-43 {
   }
 }
 .box-67 {
-  color: #202020;
+  color: #6A6A6A;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -7011,7 +7017,7 @@ p.remind-43 {
           transform: scale(1.0225);
 }
 .box-67 .name-67 {
-  padding: 19px 15px 25px;
+  padding: 19px 30px 25px;
   background: #FFFFFF;
 }
 
@@ -7085,7 +7091,7 @@ p.remind-43 {
   z-index: 10;
   opacity: 0;
   transition: 0.5s;
-  color: #202020;
+  color: #6A6A6A;
   -webkit-transform: translateY(10px);
           transform: translateY(10px);
 }
@@ -7129,7 +7135,7 @@ p.remind-43 {
 }
 .grid-71 .cell-71:hover {
   background: #fff;
-  color: #202020;
+  color: #6A6A6A;
   opacity: 1;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   border-color: transparent !important;
@@ -7162,7 +7168,7 @@ p.remind-43 {
 }
 .grid-73 .cell-73:hover {
   background: #fff;
-  color: #202020;
+  color: #6A6A6A;
   opacity: 1;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   border-color: transparent !important;
@@ -7172,7 +7178,7 @@ p.remind-43 {
 }
 
 .image-73.shiftImageVertical.shiftImage {
-  margin: -13% 0 -6%;
+  margin: -8% 0 -6%;
 }
 
 .grid.grid-74 {
@@ -7185,7 +7191,7 @@ p.remind-43 {
 }
 
 .box-74 {
-  color: #202020;
+  color: #6A6A6A;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -7268,7 +7274,7 @@ p.remind-43 {
   }
 }
 .box-77 {
-  color: #202020;
+  color: #6A6A6A;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -7422,7 +7428,7 @@ p.remind-43 {
 }
 
 .grid.grid-83 {
-  color: #202020;
+  color: #6A6A6A;
   margin-top: 50px;
 }
 @media (min-width: 1024px) {
@@ -7466,7 +7472,7 @@ p.remind-43 {
 }
 
 .grid.grid-84 {
-  color: #202020;
+  color: #6A6A6A;
   margin-top: 50px;
 }
 @media (min-width: 1240px) {
@@ -7587,7 +7593,7 @@ p.remind-43 {
   background: #fff;
   font-size: 26px;
   border-radius: 6px;
-  color: #202020;
+  color: #6A6A6A;
   position: relative;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
 }
