@@ -449,11 +449,9 @@ small .small {
   height: 42px;
   width: 42px;
   padding: 12px;
-  border-radius: 25px;
   z-index: 999;
-  background: rgba(0, 0, 0, 0.3);
+  background: transparent;
   line-height: 1;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
   cursor: pointer;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -1984,7 +1982,7 @@ html.mobile .showForMobileInline {
   top: 5px;
 }
 .slides.whiteSlide .panel .actionButton svg {
-  fill: #fff;
+  fill: #EC1C77;
 }
 .panel .prevSlide,
 .panel .nextSlide {
