@@ -947,7 +947,7 @@ p.uppercase, .p.uppercase,
 }
 .tabs li.selected {
   background: #fff;
-  color: #6A6A6A;
+  color: #2E172C;
 }
 
 .slide.whiteSlide .tabs li {
@@ -6825,8 +6825,9 @@ form input[type="email"].input-13 {
 }
 @media (min-width: 1024px) {
   .ipad-33 {
-    margin: -10% 0px -115%;
+    margin: -10% 0px -90%;
     max-width: none;
+    padding-right: 140px
   }
 }
 @media (max-width: 1023px) {
