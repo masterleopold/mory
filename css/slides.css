@@ -324,7 +324,7 @@ small .small {
   .h1.huge,
   h1.big,
   .h1.big {
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 20px;
   }
   h2,
@@ -333,8 +333,17 @@ small .small {
   .h2.huge,
   h2.big,
   .h2.big {
-    font-size: 22px;
+    font-size: 20px;
   }
+  h3,
+  .h3 {
+    font-size: 18px;
+  }
+  p.tiny,
+.p.tiny,
+blockquote.tiny {
+  font-size: 14px;
+}
  .button.hollow {
   display: none;
   }
