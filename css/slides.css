@@ -327,6 +327,12 @@ small .small {
     font-size: 30px;
     margin-bottom: 20px;
   }
+ .button.hollow {
+  display: none;
+  }
+  .cropRight{
+  display: none !important;
+  }
 
   p.hero {
     font-size: 22px;
@@ -1919,7 +1925,7 @@ html.mobile .showForMobileInline {
   vertical-align: bottom;
 }
 .panel .sections .menu li {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   display: inline-block;
   margin: 0 10px;
